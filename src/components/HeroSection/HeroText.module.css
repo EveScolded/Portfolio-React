@@ -1,0 +1,64 @@
+.hero__description {
+  padding: 0 16px;
+}
+.hero__description:before {
+  background-image: url("../../assets/img/left_bracket.svg");
+  right: 100%;
+}
+
+.hero__description:after {
+  left: 100%;
+  background: url("../../assets/img/right_bracket.svg");
+}
+
+@media (min-width: 1000px) {
+  .hero__description {
+    position: relative;
+    max-width: 830px;
+  }
+  .hero__description:before,
+  .hero__description:after {
+    position: absolute;
+    display: block;
+    width: 83px;
+    height: 255px;
+    content: "";
+    top: 0;
+  }
+}
+
+.hero__header {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 32px;
+}
+@media (min-width: 768px) {
+  .hero__header {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.hero__header-color {
+  color: #1070ca;
+}
+
+.hero__paragraph {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .hero__paragraph {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 68px;
+  }
+}
+
+.hero__link {
+  color: #4da8ff;
+}

@@ -1,0 +1,43 @@
+.projects {
+  padding: 64px 16px 88px 16px;
+}
+
+.projects__header {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 0 32px;
+}
+
+.projects__description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 46px;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    .projects__header {
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    .projects__description {
+      font-size: 20px;
+      line-height: 40px;
+      max-width: 782px;
+      margin: 0 auto 128px auto;
+    }
+
+    .projects__container {
+      grid-template-columns: 1fr 1fr;
+      max-width: 1184px;
+      margin: 0 auto;
+    }
+}

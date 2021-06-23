@@ -1,0 +1,19 @@
+.skills-list__item {
+  list-style-type: none;
+  padding: 0 0 24px 24px;
+  position: relative;
+  text-align: left;
+}
+
+.skills-article__emoji {
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.skills-article__header {
+  text-align: center;
+  margin: 24px;
+}

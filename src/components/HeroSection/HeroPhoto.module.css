@@ -1,0 +1,78 @@
+.hero__cloud {
+  display: none;
+}
+@media (min-width: 768px) {
+  .hero__cloud {
+    display: block;
+    background-color: #1070ca;
+    border-radius: 16px;
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 16px 16px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+.hero__cloud:after {
+  background-image: url("../../assets/img/speech_cloud.svg");
+  display: block;
+  position: absolute;
+  content: "";
+  top: 70px;
+  right: 186px;
+  width: 18px;
+  height: 23px;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(-15deg);
+    transform-origin: right bottom;
+  }
+  50% {
+    transform: rotate(15deg);
+    transform-origin: right bottom;
+  }
+  100% {
+    transform: rotate(-15deg);
+    transform-origin: right bottom;
+  }
+}
+
+.hero__hand {
+  display: inline-block;
+  animation: wave 1s ease-in-out infinite;
+}
+
+.hero__hand {
+  margin-left: 10px;
+}
+
+.hero__image-container {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .hero__image-container {
+    position: relative;
+    width: 610px;
+  }
+}
+
+.hero__image {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 16px solid #f6f9fd;
+}
+@media (min-width: 768px) {
+  .hero__image {
+    width: 178px;
+    height: 178px;
+    border: 24px solid #f6f9fd;
+    margin-top: 40px;
+  }
+}

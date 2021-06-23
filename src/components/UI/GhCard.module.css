@@ -1,0 +1,76 @@
+
+.project {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  background: #212528;
+  color: #808082;
+  overflow: hidden;
+  border-radius: 16px;
+  filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+.project__content {
+    padding: 24px 16px;
+}
+
+@media (min-width: 768px) {
+    .project__content {
+      padding: 34px 48px;
+      font-size: 16px;
+    }
+}
+
+.project__bar {
+    background-color: #1e1e1e;
+    height: 40px;
+    display: flex;
+}
+
+.project__circles {
+    margin: 16px;
+    background: url("../../assets/img/project_dots.svg");
+    height: 8px;
+    width: 40px;
+}
+
+.project__github-logo {
+    background: url("../../assets/img/gh_black.svg");
+    height: 22px;
+    width: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project__grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-column-gap: 4px;
+}
+
+.project__grid:nth-child(3) {
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    .project__grid {
+      grid-template-columns: 116px 1fr;
+    }
+}
+
+  .project__name {
+    color: white;
+  }
+
+  .project__label {
+    text-align: right;
+  }
+
+  .project__description {
+    text-align: left;
+  }
+
+  .project__link {
+    color: #14b5d0;
+  }
