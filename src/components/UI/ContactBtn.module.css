@@ -1,0 +1,13 @@
+.contact__icons {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(16, 112, 202, 0.15);
+  border-radius: 50%;
+  border: solid 12px white;
+  width: 48px;
+  height: 48px;
+  margin: 12px;
+}
+
+.contact__icons:hover {
+  box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.5);
+}
