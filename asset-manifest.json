@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.ddcc6b09.chunk.css",
+    "main.js": "/Portfolio-React/static/js/main.eea9615c.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.eea9615c.chunk.js.map",
+    "runtime-main.js": "/Portfolio-React/static/js/runtime-main.93004ca0.js",
+    "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.93004ca0.js.map",
+    "static/js/2.315b8257.chunk.js": "/Portfolio-React/static/js/2.315b8257.chunk.js",
+    "static/js/2.315b8257.chunk.js.map": "/Portfolio-React/static/js/2.315b8257.chunk.js.map",
+    "static/js/3.25903401.chunk.js": "/Portfolio-React/static/js/3.25903401.chunk.js",
+    "static/js/3.25903401.chunk.js.map": "/Portfolio-React/static/js/3.25903401.chunk.js.map",
+    "index.html": "/Portfolio-React/index.html",
+    "static/css/main.ddcc6b09.chunk.css.map": "/Portfolio-React/static/css/main.ddcc6b09.chunk.css.map",
+    "static/js/2.315b8257.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.315b8257.chunk.js.LICENSE.txt",
+    "static/media/Skills.module.css": "/Portfolio-React/static/media/green-tick.7747dc29.svg",
+    "static/media/GhCard.module.css": "/Portfolio-React/static/media/project_dots.5f8a6580.svg",
+    "static/media/gh_blue.d527165b.svg": "/Portfolio-React/static/media/gh_blue.d527165b.svg",
+    "static/media/hero.f80e2059.jpg": "/Portfolio-React/static/media/hero.f80e2059.jpg",
+    "static/media/HeroText.module.css": "/Portfolio-React/static/media/right_bracket.767db10b.svg",
+    "static/media/linkedin_blue.51de41c3.svg": "/Portfolio-React/static/media/linkedin_blue.51de41c3.svg",
+    "static/media/HeroPhoto.module.css": "/Portfolio-React/static/media/speech_cloud.13333786.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93004ca0.js",
+    "static/js/2.315b8257.chunk.js",
+    "static/css/main.ddcc6b09.chunk.css",
+    "static/js/main.eea9615c.chunk.js"
+  ]
+}
